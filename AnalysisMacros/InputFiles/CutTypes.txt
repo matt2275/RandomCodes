@@ -1,0 +1,34 @@
+Universal: hasHighestMass && abs(tag_eta) < 2.4 && abs(probe_eta) < 2.4 && abs(tag_vtx_x) < .3 && abs(tag_vtx_y) < .3 && abs(tag_vtx_z) < 15  && abs(probe_vtx_x) < .3 && abs(probe_vtx_y) < .3 && abs(probe_vtx_z) < 15 && nTrk ==2 && maxHFp < 10 && maxHFm < 10 && pair_mass > 4
+JPsi_Mass_Cut: pair_mass > 2.8 && pair_mass < 3.4
+Not_JPsi_Mass_Cut: pair_mass < 40 && !(pair_mass > 2.8 && pair_mass < 3.4)
+TnP_Pt_Cut: tag_pt > 1 && probe_pt > 1
+Pair_Pos_Eta_Cut: pair_eta > 0 
+Pair_Neg_Eta_Cut: pair_eta < 0
+ZDC_Pos_OneNp_Cut: ZDC_P_Total_Energy > 1200 
+ZDC_Neg_OneNp_Cut: ZDC_M_Total_Energy > 1200 
+ZDC_OneNp_Cut: (ZDC_P_Total_Energy > 1200  || ZDC_M_Total_Energy > 1200)
+ZDC_NoN_Cut:  ZDC_M_Total_Energy < 1200 && ZDC_P_Total_Energy < 1200
+Tag_Electron_EG3_Cut: tag_isElectron && HLT_HIUPC_SingleEG3_NotMBHF2AND_v && tag_hltL1sSingleEG3NotHF2AND && tag_hltL1sSingleEG3NotHF2AND_dr < .5
+Tag_Electron_EG5_Cut: tag_isElectron && HLT_HIUPC_SingleEG5_NotMBHF2AND_v && tag_hltL1sSingleEG5NotHF2AND && tag_hltL1sSingleEG5NotHF2AND_dr < .5
+Tag_Muon_Cut: tag_isMuon && HLT_HIUPC_SingleMuOpen_NotMBHF2AND_v && tag_hltL1sSingleMuOpenNotMBHF2AND && tag_hltL1sSingleMuOpenNotMBHF2AND_dr < .5
+Probe_Electron_Pass_Cut:  probe_isElectron && probe_ElectronMatchDR < .1 
+Probe_Muon_Pass_Cut: probe_isMuon && probe_MuonMatchDR < .1 
+Probe_isPion_Cut: probe_isPion
+Probe_isNotPion_Cut: !probe_isPion
+Probe_isNotMuon_Cut: !probe_isMuon
+Probe_isNotElectron_Cut: !probe_isElectron
+MuE_NoOrder_EG5_Cut: ((tag_isMuon&& probe_isElectron && HLT_HIUPC_SingleMuOpen_NotMBHF2AND_v ) || (tag_isElectron && probe_isMuon && HLT_HIUPC_SingleEG5_NotMBHF2AND_v)) && nMu ==1 && nEle==1 
+MuE_NoOrder_EG3_Cut: ((tag_isMuon&& probe_isElectron && HLT_HIUPC_SingleMuOpen_NotMBHF2AND_v ) || (tag_isElectron && probe_isMuon && HLT_HIUPC_SingleEG3_NotMBHF2AND_v)) && nMu ==1 && nEle==1 
+NoPair_EG5_Cut: ((tag_isMuon && !probe_isMuon && HLT_HIUPC_SingleMuOpen_NotMBHF2AND_v) || (tag_isElectron && !probe_isElectron && HLT_HIUPC_SingleEG5_NotMBHF2AND_v))
+NoPair_EG3_Cut: ((tag_isMuon && !probe_isMuon && HLT_HIUPC_SingleMuOpen_NotMBHF2AND_v) || (tag_isElectron && !probe_isElectron && HLT_HIUPC_SingleEG3_NotMBHF2AND_v))
+Bad_ZDC_Cut: ZDC_P_Total_Energy < 500000 && ZDC_M_Total_Energy < 500000
+Tight_Aco_Cut: Aco < .05
+nTrk_Cut: nTrk==2
+Tag_GoodMuon_Cut: tag_muon_softID && ( (tag_pt > 3.5 && abs(tag_eta) < 1.2) || (tag_pt > 2.5 && abs(tag_eta) > 1.2) )  && abs(tag_eta) < 2.4
+Probe_GoodMuon_Cut: probe_muon_softID && ( (probe_pt > 3.5 && abs(probe_eta) < 1.2) || (probe_pt > 2.5 && abs(probe_eta) > 1.2) ) && abs(probe_eta) < 2.4
+Tag_GoodElectron_Cut: tag_pt > 2.0 && abs(tag_eta) < 2.2  && (tag_electron_HoverE < .005 && tag_electron_HoverE > -999) && (tag_electron_MissHits <=1 && tag_electron_MissHits > -999) && (abs(tag_electron_dEtaAtVtx) < .1 )
+Probe_GoodElectron_Cut: probe_pt > 2.0 && abs(probe_eta) < 2.2  && (probe_electron_HoverE < .005 && probe_electron_HoverE > -999) && (probe_electron_MissHits <=1 && probe_electron_MissHits > -999) && (abs(probe_electron_dEtaAtVtx) < .1 )
+Tag_inCrack_Cut:  abs(tag_eta) > 1.4442 && abs(tag_eta) <  1.566
+Probe_inCrack_Cut: abs(probe_eta) > 1.4442 && abs(probe_eta) <  1.566
+Tag_BadEta_Cut: (abs(tag_eta) > 1.4442 && abs(tag_eta) < 1.566) || (tag_eta < -1.39 && (tag_phi > -1.6 && tag_phi < -.9) ) 
+Probe_BadEta_Cut: (abs(probe_eta) > 1.4442 && abs(probe_eta) < 1.566 ) || (probe_eta < -1.39 && (probe_phi > -1.6 && probe_phi < -.9) ) 

@@ -1,0 +1,62 @@
+All files are assumed to be in the Histogram and Plot Directory Specified in Config File
+In lxplus example typically the input data and output plots are in eos while the macros are in afs
+
+#### Selection.txt #####
+selections to be applied to data
+
+###Format
+
+Selection: PT_Cut && !BadEta_Cut
+
+#### CutType.txt ####
+It is best practice to include _CUT at the end of the cut selections incase you're cut name is including in the cut
+selection i.e. tag_isMuon: tag_isMuon. This could cause errors in the selection. 
+
+Included is a universal cut that is applied to all selections in file
+This cannot be empty so for a null statment you can use always true statement like 1==1
+
+### Format
+
+CutName_Cut: pt > 2 && abs(eta) < 2.4
+
+#### list_selections.txt ####
+
+list of selections to be applied to data
+you'll probably want to split into multiple sets to prevent memory issues
+
+#### list_datatypes.txt ####
+
+list of data types to be analyzed usually MC types and Data
+with create histogram macro you'll probably want to split into multiple sets to prevent memory issues
+
+#### config.txt ####
+
+Format
+
+#1 Input Data Location
+#2 Histogram and Plot Location
+#3 File Type Either 1 Prong or 3 Prong
+#4 1D_HistParams_CustomBins.csv
+#5 2D_HistParams_CustomBins.csv
+#6 CutTypes.txt
+#7 Selections.txt
+#8 Plot Name Beginning 
+#9 Denominator in Efficiency Studies
+#10 Denominator of Scale Factors
+#11 Normalizatino XS or Unity
+#12 Folder Plots go into, only active for certain macros Right Now
+#13 DataSamplesInfo_PlotAnything.csv # at the moment only Plot Anything and Profile Plot require this input, others assume the name DataSamplesInfo.csv
+
+#### DataSampleInfo.csv ####
+
+csv with information for plotting data and MC, included file name, color and marker style, cross section info and legend name 
+
+Profile Plot and Plot Anything Macros require a different DataSampleInfo with selection information as well
+
+#### 1D_HistParams_CustomBins.csv ####
+
+info for 1D histogram header row explains entries
+
+#### 2D_HistParams_CustomBins.csv ####
+
+info for 2D histogram header row explains entries

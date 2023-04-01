@@ -1,0 +1,4 @@
+SampleName,SelectionName,isMC,SampleFileName,FillColor,MarkerType,Cross Section,NumofEvents,FudgeFactor,FancyName
+Data,DiMuon_JPsi_nTrk,0,/MinCuts_Data.root,1,20,1,1,1,Data ( JPsi)
+Data,DiMuon_NotJPsi_NotUpsilon_nTrk,0,/MinCuts_Data.root,632,21,1,1,1,Data ( 5 < M < 20)
+Data,DiMuon_Upsilon_nTrk,0,/MinCuts_Data.root,860,22,1,1,1,Data ( Upsilon )

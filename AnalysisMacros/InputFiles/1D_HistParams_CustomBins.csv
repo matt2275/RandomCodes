@@ -1,0 +1,29 @@
+﻿KeepHists,BranchName,HistName,HistTitle,CustomBinName,nBins,min,max,xaxis,yaxis,label_pos,x_leg_max,x_leg_width,y_leg_max,y_leg_width
+1,Delta_Phi,Delta_Phi,#Delta #phi (lep #comma  #tau_{1prong}),NA,32,0,3.2,#Delta #phi (lep #comma  #tau_{1prong}),Events / .05,0,0.95,0.3,0.4,0.18
+1,Aco,Aco,Acoplanarity (lep #comma #tau_{1prong}),NA,20,0,1,Acoplanarity (lep #comma #tau_{1prong}),Events / .02,0,0.95,0.3,0.4,0.18
+1,tag_pt,tag_pt,Tag p_{T} (GeV),NA,50,0,10,Tag p_{T} (GeV),Events / .5 GeV,0,0.95,0.3,0.4,0.18
+1,tag_eta,tag_eta,Tag #eta,NA,25,-2.5,2.5,Tag #eta,Events / .1,0,0.95,0.3,0.4,0.18
+1,tag_phi,tag_phi,Tag #phi,NA,32,-3.2,3.2,Tag #phi,Events / .1,0,0.95,0.3,0.4,0.18
+1,probe_pt,probe_pt,Probe p_{T} (GeV),NA,50,0,10,Probe p_{T} (GeV),Events / .5 GeV,0,0.95,0.3,0.4,0.18
+1,probe_eta,probe_eta,Probe #eta,NA,25,-2.5,2.5,Probe #eta,Events / .1,0,0.95,0.3,0.4,0.18
+1,probe_phi,probe_phi,Probe #phi,NA,32,-3.2,3.2,Probe #phi,Events / .1,0,0.95,0.3,0.4,0.18
+1,pair_pt,pair_pt,p_{T}  (lep #comma  #tau_{1prong}),NA,60,0,10,p_{T}  (lep #comma  #tau_{1prong}),Events / .5 GeV,0,0.95,0.3,0.4,0.18
+1,pair_eta,pair_eta,#eta (lep #comma  #tau_{1prong}),NA,25,-5,5,#eta (lep #comma  #tau_{1prong}),Events / .2,0,0.95,0.3,0.4,0.18
+1,pair_phi,pair_phi,#phi (lep #comma  #tau_{1prong}),NA,32,-3.2,3.2,#phi (lep #comma  #tau_{1prong}),Events / .1,0,0.95,0.3,0.4,0.18
+1,pair_mass,pair_mass,M  (lep #comma  #tau_{1prong}),NA,60,0,40,M  (lep #comma  #tau_{1prong}),Events / .5 GeV,0,0.95,0.3,0.4,0.18
+1,pair_svprob,pair_svprob,Vtx Prob  (lep #comma  #tau_{1prong}),NA,50,0,0.1,Vtx Prob  (lep #comma  #tau_{1prong}),Events / .001,0,0.95,0.3,0.4,0.18
+1,pair_dz,pair_dz,#Delta z (lep #comma  #tau_{1prong}),NA,50,-1,1,#Delta z (lep #comma  #tau_{1prong}),Events / .02,0,0.95,0.3,0.4,0.18
+1,pair_dR,pair_dR,#Delta R (lep #comma  #tau_{1prong}),NA,50,0,5,#Delta R (lep #comma  #tau_{1prong}),Events / .05,0,0.95,0.3,0.4,0.18
+1,maxHFp,maxHFp,max (HF-),NA,50,0,30,max (HF-),Events / .1 GeV,0,0.95,0.3,0.4,0.18
+1,maxHFm,maxHFm,max (HF+),NA,50,0,30,max (HF+),Events / .1 GeV,0,0.95,0.3,0.4,0.18
+1,ZDC_PM_Total_Energy,ZDC_PM_Total_Energy,ZDC Total Energy,NA,100,0,200000,ZDC Total Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_P_Total_Energy,ZDC_P_Total_Energy,ZDC + Energy,NA,100,0,200000,ZDC + Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_P_ECal_Energy,ZDC_P_ECal_Energy,ZDC +  EM Energy,NA,100,0,200000,ZDC +  EM Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_P_HCal_Energy,ZDC_P_HCal_Energy,ZDC + Hadronic Energy,NA,100,0,200000,ZDC + Hadronic Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_M_Total_Energy,ZDC_M_Total_Energy,ZDC - Energy,NA,100,0,200000,ZDC - Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_M_ECal_Energy,ZDC_M_ECal_Energy,ZDC - EM Energy,NA,100,0,200000,ZDC - EM Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,ZDC_M_HCal_Energy,ZDC_M_HCal_Energy,ZDC - Hadronic Energy,NA,100,0,200000,ZDC - Hadronic Energy,Events / 100,0,0.95,0.3,0.4,0.18
+1,nTrk,nTrk,Num of Trks,NA,20,0,20,Num of Trks,Events /1,0,0.95,0.3,0.4,0.18
+1,RJR_tau1_Reco_M,RJR_tau1_Reco_M,RJR Tau Mass,NA,25,0,10,RJR Tau Mass,Events/.2 GeV,0,0.95,0.3,0.4,0.18
+1,Rapidity,Rapidity,Rapitidy (lep #comma #tau_{1prong}) ,NA,30,-3,3,Rapitidy (lep #comma #tau_{1prong}) ,Events/ .1,0,0.95,0.3,0.4,0.18
+1,nTower,nTower,Num of Towers,NA,30,0,30,Num of Towers,Events,0,0.95,0.3,0.4,0.18

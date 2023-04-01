@@ -1,0 +1,9 @@
+MuMu:  Tag_Muon_Cut && Probe_Muon_Pass_Cut && Tag_GoodMuon_Cut && Probe_GoodMuon_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nMu==2
+MuEl:  Tag_Muon_Cut && Probe_Electron_Pass_Cut && Tag_GoodMuon_Cut && Probe_GoodElectron_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nMu==1 && nEle==1
+MuPion:  Tag_Muon_Cut && Probe_isPion_Cut && Tag_GoodMuon_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nMu==1
+ElMu_EG3:  Tag_Electron_EG3_Cut && Probe_Muon_Pass_Cut && Tag_GoodElectron_Cut && Probe_GoodMuon_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nMu==1 && nEle==1
+ElEl_EG3:  Tag_Electron_EG3_Cut && Probe_Electron_Pass_Cut && Tag_GoodElectron_Cut && Probe_GoodElectron_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nEle==2
+ElPion_EG3: Tag_Electron_EG3_Cut && Probe_isPion_Cut && Tag_GoodElectron_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nEle==1
+ElMu_EG5:  Tag_Electron_EG5_Cut && Probe_Muon_Pass_Cut && Tag_GoodElectron_Cut && Probe_GoodMuon_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nMu==1 && nEle==1
+ElEl_EG5:  Tag_Electron_EG5_Cut && Probe_Electron_Pass_Cut && Tag_GoodElectron_Cut && Probe_GoodElectron_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nEle==2
+ElPion_EG5: Tag_Electron_EG5_Cut && Probe_isPion_Cut && Tag_GoodElectron_Cut && !Tag_BadEta_Cut && !Probe_BadEta_Cut && nEle==1

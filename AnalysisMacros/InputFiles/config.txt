@@ -1,0 +1,13 @@
+/eos/user/m/mnickel/MultiTagData/
+/eos/user/m/mnickel/MultiTagData/Outputs/UpsilonJPsiStudy/
+1Prong
+1D_HistParams_CustomBins.csv
+2D_HistParams_CustomBins.csv
+CutTypes.txt
+Selections.txt
+VectorMesonStudy_
+Electron_EG3_All
+Data
+Unity
+ZDC_Study_DiMuon_nTrk
+DataSamplesInfo.csv

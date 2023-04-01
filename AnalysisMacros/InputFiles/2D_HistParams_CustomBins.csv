@@ -1,0 +1,27 @@
+﻿KeepHists,BranchName_X,BranchName_Y,HistName,HistTitle,CustomBinName_X,nBins_X,min_X,max_X,CustomBinName_Y,nBins_Y,min_Y,max_Y,xaxis,yaxis
+1,tag_pt,abs_tag_eta,tag_pt_V_abs_tag_eta,Tag p_{T} (GeV) VS. |Tag #eta|,NA,20,0,20,NA,10,0,2.5,Tag p_{T} (GeV),|Tag #eta|
+1,tag_pt,probe_pt,tag_pt_V_probe_pt,Tag p_{T} (GeV) VS. Probe p_{T} (GeV) ,NA,20,0,20,NA,20,0,20,Tag p_{T} (GeV),Probe p_{T} (GeV)
+1,probe_pt,abs_probe_eta,probe_pt_V_abs_probe_eta,Probe p_{T} (GeV) VS. |Probe #eta|,NA,20,0,20,NA,10,0,2.5,Probe p_{T} (GeV),|Probe #eta|
+1,tag_eta,probe_eta,tag_eta_V_probe_eta,Tag #eta VS. Probe #eta,NA,20,-2.5,2.5,NA,20,-2.5,2.5,Tag #eta,Probe #eta
+1,tag_phi,probe_phi,tag_phi_V_probe_phi,Tag #phi VS. Probe #phi,NA,32,-3.2,3.2,NA,32,-3.2,3.2,Tag #phi,Probe #phi
+1,pair_mass,ZDC_PM_Total_Energy,pair_mass_V_ZDC_PM_Total_Energy,Pair Mass V ZDC  Total Energy,NA,10,0,40,NA,50,0,200000,Pair Mass,ZDC Total Energy 
+1,pair_mass,ZDC_P_Total_Energy,pair_mass_V_ZDC_P_Total_Energy,Pair Mass V ZDC + Total Energy,NA,10,0,40,NA,50,0,200000,Pair Mass,ZDC + Total Energy 
+1,pair_mass,ZDC_M_Total_Energy,pair_mass_V_ZDC_M_Total_Energy,Pair Mass V ZDC - Total Energy,NA,10,0,40,NA,50,0,200000,Pair Mass,ZDC - Total Energy 
+1,Rapidity,ZDC_PM_Total_Energy,Rapidity_V_ZDC_PM_Total_Energy,Rapidity V ZDC  Total Energy,NA,10,-3,3,NA,50,0,200000,Rapidity,ZDC  Total Energy 
+1,Rapidity,ZDC_P_Total_Energy,Rapidity_V_ZDC_P_Total_Energy,Rapidity V ZDC + Total Energy,NA,10,-3,3,NA,50,0,200000,Rapidity,ZDC + Total Energy 
+1,Rapidity,ZDC_M_Total_Energy,Rapidity_V_ZDC_M_Total_Energy,Rapidity V ZDC - Total Energy,NA,10,-3,3,NA,50,0,200000,Rapidity,ZDC - Total Energy 
+1,nTower,ZDC_PM_Total_Energy,nTower_V_ZDC_PM_Total_Energy,Num of Towers V ZDC  Total Energy,NA,10,0,30,NA,50,0,200000,Num of Towers ,ZDC  Total Energy 
+1,nTower,ZDC_P_Total_Energy,nTower_V_ZDC_P_Total_Energy,Num of Towers  V ZDC + Total Energy,NA,10,0,30,NA,50,0,200000,Num of Towers ,ZDC + Total Energy 
+1,nTower,ZDC_M_Total_Energy,nTower_V_ZDC_M_Total_Energy,Num of Towers V ZDC - Total Energy,NA,10,0,30,NA,50,0,200000,Num of Towers ,ZDC - Total Energy 
+1,maxHFp,ZDC_P_Total_Energy,maxHFp_V_ZDC_P_Total_Energy, max (HF+) V ZDC + Total Energy,NA,30,0,30,NA,50,0,200000,max (HF+),ZDC + Total Energy 
+1,maxHFp,ZDC_M_Total_Energy,maxHFp_V_ZDC_M_Total_Energy,max (HF+) V ZDC - Total Energy,NA,30,0,30,NA,50,0,200000,max (HF+),ZDC - Total Energy 
+1,maxHFm,ZDC_P_Total_Energy,maxHFm_V_ZDC_P_Total_Energy, max (HF-) V ZDC + Total Energy,NA,30,0,30,NA,50,0,200000,max (HF-),ZDC + Total Energy 
+1,maxHFm,ZDC_M_Total_Energy,maxHFm_V_ZDC_M_Total_Energy,max (HF-) V ZDC - Total Energy,NA,30,0,30,NA,50,0,200000,max (HF-),ZDC - Total Energy 
+1,pair_mass,maxHFp,pair_mass_V_maxHFp,Pair Mass V max (HF+),NA,10,0,40,NA,30,0,30,Pair Mass,max (HF+)
+1,pair_mass,maxHFm,pair_mass_V_maxHFm,Pair Mass V max (HF-),NA,10,0,40,NA,30,0,30,Pair Mass,max (HF-)
+1,Rapidity,maxHFp,Rapidity_V_maxHFp,Rapidity V max (HF+),NA,10,-3,3,NA,30,0,30,Rapidity,max (HF+)
+1,Rapidity,maxHFm,Rapidity_V_maxHFm,Rapidity V max (HF-),NA,10,-3,3,NA,30,0,30,Rapidity,max (HF-)
+1,nTower,maxHFp,nTower_V_maxHFp,Num of Towers V max (HF+),NA,10,0,30,NA,30,0,30,Num of Towers,max (HF+)
+1,nTower,maxHFm,nTower_V_maxHFm,Num of Towers V max (HF-),NA,10,0,30,NA,30,0,30,Num of Towers,max (HF-)
+1,Rapidity,Rel_Diff_HF,Rapidity_V_Rel_Diff_HF,Rapidity V Relative Difference HF,NA,10,-3,3,NA,10,-1,1,Rapidity,Relative Difference HF
+1,Rapidity,Rel_Diff_ZDC,Rapidity_V_Rel_Diff_ZDC,Rapidity V Relative Difference ZDC,NA,10,-3,3,NA,10,-1,1,Rapidity,Relative Difference ZDC

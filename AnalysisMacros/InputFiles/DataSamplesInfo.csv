@@ -1,0 +1,15 @@
+SampleName,isMC,SampleFileName,FillColor,MarkerType,Cross Section,NumofEvents,FudgeFactor,FancyName
+Data,0,/MinCuts_Data.root,1,20,1,1,1,Data
+DiTau_SuperChic,1,/MinCuts_DiTau_SuperChic.root,632,20,5.70E+05,1184600,1,#gamma #gamma #rightarrow #tau^{+}#tau^{-} (MC SC)
+DiTau_Madgraph,1,/MinCuts_DiTau_Madgraph.root,880,21,5.70E+05,950000,1,#gamma #gamma #rightarrow #tau^{+}#tau^{-} (MC MG)
+DiTau_BSM1,1,/MinCuts_DiTau_BSM1.root,840,22,8.83E+06,1184600,0.1,#gamma #gamma #rightarrow #tau^{+}#tau^{-} (MC BSM1)
+DiTau_BSM2,1,/MinCuts_DiTau_BSM2.root,860,23,5.70E+05,950000,1,#gamma #gamma #rightarrow #tau^{+}#tau^{-} (MC BSM2)
+BBbar,1,/MinCuts_BBbar.root,397,66,1.50E+05,2.00E+07,1,B #bar{B} (MC)
+CCbar,1,/MinCuts_CCbar.root,419,44,3.00E+05,19976000,1,C #bar{C} (MC)
+DiElectron_SuperChic,1,/MinCuts_DiElectron_SuperChic.root,880,33,8.83E+06,67810000,0.3,#gamma #gamma #rightarrow e^{+}e^{-} (MC SC)
+DiElectron_Starlight,1,/MinCuts_DiElectron_Starlight.root,860,32,7.92E+06,66750000,0.3,#gamma #gamma #rightarrow e^{+}e^{-} (MC SL)
+DiMuon_Gamma,1,/MinCuts_DiMuon_Gamma.root,890,21,1.40E+05,2390000,1,#gamma #gamma #rightarrow #mu^{+}#mu^{-} + #gamma (MC SL)
+DiMuon_noFSR,1,/MinCuts_DiMuon_noFSR.root,880,22,1.89E+05,30000000,17.97,#gamma #gamma #rightarrow #mu^{+}#mu^{-} (MC SL)
+DiMuon_Starlight,1,/MinCuts_DiMuon_Starlight.root,880,22,1.89E+05,30000000,17.97,#gamma #gamma #rightarrow #mu^{+}#mu^{-} (MC SL)
+DiMuon_Private,1,/MinCuts_DiMuon_Private.root,880,22,1.89E+05,30000000,17.97,#gamma #gamma #rightarrow #mu^{+}#mu^{-} (MC Private)
+DiMuon_Arash,1,/MinCuts_DiMuon_Arash.root,890,23,8.83E+06,250000,0.1,#gamma #gamma #rightarrow #mu^{+}#mu^{-} (MC Arash)
